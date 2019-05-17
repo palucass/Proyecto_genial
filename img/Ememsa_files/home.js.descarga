@@ -1,0 +1,6 @@
+let btn_Menu = document.getElementById("bttn_menu");
+let menu = document.getElementById("menu");
+btn_Menu.addEventListener("click", function(){
+    "use string";
+    menu.classList.toggle("mostrar");
+})
